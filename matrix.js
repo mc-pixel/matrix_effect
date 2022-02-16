@@ -1,6 +1,6 @@
-var canvas = document.getElementById('canvas'),
-    ctx = canvas.getContext('2d'),
-    cw = window.innerWidth,
+const canvas = document.getElementById('canvas');
+const    ctx = canvas.getContext("2d");
+var cw = window.innerWidth,
     ch = window.innerHeight,
     charArr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'],
     maxCharCount = 100,
@@ -47,4 +47,4 @@ var canvas = document.getElementById('canvas'),
       frames++;
 
   };
-  update;
+  update();

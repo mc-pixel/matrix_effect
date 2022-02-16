@@ -1,0 +1,15 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  canvas {
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    }

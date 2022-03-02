@@ -8,7 +8,7 @@ var cw = window.innerWidth,
     fontSize = 10,
     maxColumns = cw/fontSize;
 
-  class fallingChar {
+  class FallingChar {
       constructor(x,y){
           this.x=x;
           this.y=y;
@@ -34,7 +34,7 @@ var cw = window.innerWidth,
 
   var update = () => {
       if(fallingCharArr.length < maxCharCount) {
-          var fallingChar = new fallingChar( Math.floor(Math.random() * maxColumns) * fontSize, (Math.random() * ch) / 2 - 50);
+          let fallingChar = new FallingChar( Math.floor(Math.random() * maxColumns) * fontSize, (Math.random() * ch) / 2 - 50);
           fallingCharArr.push(fallingChar);
       }
       ctx.fillStyle = "rgba(0,0,0,0.05)";
